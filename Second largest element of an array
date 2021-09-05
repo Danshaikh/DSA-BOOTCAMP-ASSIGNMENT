@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main(){
+
+   int array[5],i,j;
+   int slar,temp;
+   
+   cout<<"enter numbers";
+   for(i=0;i<5;i++){
+   if (array[i]>array[j]){
+    temp=array[i];
+    array[i]=array[j];
+    array[j]=temp;
+    }
+   }
+  }
+  cout<<"second largest;"array[5-2];
+  
+  return 0;
+ }
+   
